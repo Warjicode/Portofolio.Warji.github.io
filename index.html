@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Portofolio</title>
+   <link rel="stylesheet" href="resp.css">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <style type="text/css" media="all">
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!--Navbar-->
+      <div class="navbar">
+        <div class="judul">
+          <h3>My Portofolio</h3>
+        </div>
+        <div class="li_item ">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+        <!--toggle-->
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!--akhir toggle-->
+      </div>
+      <!--akhir navbar-->
+      <!--main content-->
+        <div class="main_content">
+          <div class="content">
+        <div class="aset">
+        <img src="assets/done.png">
+        </div>
+        <div class="name">
+        <p>My name is</p>
+        <h3>Warji</h3>
+        <p id="p2">I'm a Junior Web Developer</p>
+        <button>Hire me</button>
+        </div>
+        </div>
+        </div>
+        <!--akhir content-->
+        <!--awal aboutme-->
+        <div class="aboutme" id="about">
+          <div class="about">
+            <div class="aset2">
+          <img class="aboutd" src="assets/aboutme.png">
+            </div>
+          <div class="about_detail">
+            <h3>About Me</h3>
+            <p>
+              Success in golf depends
+              lesson strength of body</p>
+              <p>than upon strength of mind and character.</p>
+          </div>
+          </div>
+        </div>
+        <!--akhir aboutme-->
+        <!--awal skill-->
+        <div class="skill" id="skill">
+          <div class="skill_detail">
+            <div class="aset3">
+              
+              <img src="assets/skill.png">
+            </div>
+            <div class="skill_desk">
+              <h3>My Skill</h3>
+              <p>I'm have experience for<span> HTML , CSS</span></p><p>and <span>JavaScript.</span></p>
+            </div>
+          </div>
+        </div>
+        <!--akhir skil-->
+        <!--awal contact-->
+        <div class="contact" id="contact">
+          <div class="contact_content">
+            <div class="aset4">
+              <img src="assets/contact.png">
+            </div>
+            <div class="contact_form">
+             <span><h3>Contact</h3></span>
+              <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email Account">
+                <textarea placeholder="Your Message"></textarea>
+                <button>Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!--akhir contact-->
+        <footer><p align="center">Copyright&copy; 2022 - Warji</p></footer>
+    </div>
+    <script>
+      var muncul = document.querySelector('.li_item ul')
+      var span = document.querySelector('.menu-toggle span')
+      
+      span.onclick = function(s){
+        muncul.classList.toggle('uli')
+      }
+    </script>
+  </body>
+</html>

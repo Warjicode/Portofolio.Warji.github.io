@@ -1,0 +1,210 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.navbar{
+  z-index: 2;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+}
+.navbar .judul h3{
+  color: #6c63df;
+}
+.navbar .li_item {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar .li_item ul{
+  display: flex;
+  list-style: none;
+  width:40%;
+  justify-content: space-between;
+}
+.navbar .li_item .uli{
+  margin-top:20px;
+}
+.navbar a{
+  text-decoration: none;
+  color: #6b6b6b;
+}
+.main_content{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  width: 100%;
+}
+.main_content .content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+.main_content .content .aset img{
+  width: 300px;
+}
+.main_content .content .name{
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.main_content .content .name h3{
+  font-size: 44px;
+  color: #6c63df;
+}
+.content .name button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 80px;
+  height: 40px;
+  border:none;
+  margin-top: 10px;
+  border-radius: 1px;
+  background-color: orange;
+  color: white;
+  outline: none;
+}
+.content .name #p2{
+  margin-top: 20px;
+}
+.main_content .btm img{
+  width: 100%;
+  height: 200px;
+}
+
+.aboutme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.aboutme .about{
+  display: flex;
+  width:80%;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.about .aset2 .aboutd{
+  width: 400px;
+}
+.aboutme .about_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+}
+.about_detail h3{
+  color: #6c63ff;
+}
+.about_detail p{
+  color: #6b6b6b;
+}
+
+.skill{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.skill_detail{
+  box-sizing: border-box;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.skill_detail .aset3{
+  order: 2;
+  box-sizing: border-box;
+}
+.skill_detail .aset3 img{
+  width: 400px;
+  
+}
+.skill_detail .skill_desk{
+  color: #6b6b6b;
+  order:1;
+}
+.skill_desk h3{
+  color: #6c63ff;
+}
+.skill_desk span{
+  color: #6c63ff;
+}
+
+.contact{
+  display: flex;
+  width: 100%;
+  background-color: #6c63ff;
+  height: 400px;
+  justify-content: space-around;
+}
+.contact .contact_content{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact_content .aset4 img{
+  width: 400px;
+  border-radius: 10px;
+}
+.contact_content .contact_form{
+  height: 200px;
+  width: 40%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction:column ;
+}
+.contact_content .contact_form form{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  
+}
+.contact_form form input{
+  box-sizing: border-box;
+  margin-top: 5px;
+  width: 300px;
+  height: 40px;
+  border:none;
+  padding: 3px;
+}
+.contact_form form textarea{
+  box-sizing: border-box;
+  padding: 3px;
+  margin-top: 5px;
+  height: 100px;
+  width:300px;
+  border:none;
+}
+.contact_form form button{
+  width: 100px;
+  height: 40px;
+  border: none;
+  margin-top: 3px;
+  border-radius: 2px;
+}
+footer{
+  height: 40px;
+  color: white;
+  line-height: 40px;
+  background-color: #6b6b6b;
+}
