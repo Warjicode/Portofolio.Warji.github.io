@@ -119,6 +119,7 @@
 .skill{
   display: flex;
   width: 100%;
+  min-height:400px
   justify-content: center;
   box-sizing: border-box;
 }
