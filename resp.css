@@ -1,7 +1,4 @@
-@media screen and (max-width:576px){
-  .container{
-    overflow: hidden;
-  }
+@media screen and (max-width:576px;){
   .navbar .li_item ul{
     transition: 0.2s;
     overflow-y: hidden;
