@@ -126,9 +126,7 @@
     align-items: flex-start;
   }
   .contact .contact_content .contact_form form{
-    width: 30%;
     left: 0;
-    margin-left: 20px;
   }
   .contact .contact_form span h3{
     margin-left: -80px;
