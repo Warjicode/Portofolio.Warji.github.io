@@ -122,10 +122,9 @@
     box-sizing:border-box;
   }
   .contact .contact_content {
-    align-items: flex-start;
+    background-color: red;
   }
   .contact .contact_content .contact_form form{
-    left: 0;
     background-color: red;
   }
 
