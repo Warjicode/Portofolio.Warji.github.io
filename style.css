@@ -1,5 +1,6 @@
 
 .container{
+  min-height:800px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
