@@ -128,6 +128,8 @@
   }
   .contact .contact_content .contact_form form{
     background-color: blue;
+    width:55%;
+    box-sizing: border-box;
   }
 
   .contact .contact_form span h3{
