@@ -1,4 +1,8 @@
 @media screen and (max-width:576px){
+  body {
+  max-width:576px
+  background-color: blue;
+  }
   .container {
     box-sizing:border-box;
     background-color:red;
