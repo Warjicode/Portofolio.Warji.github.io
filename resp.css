@@ -118,12 +118,12 @@
   }
   .contact{
     height: 250px;
+    box-sizing:border-box;
   }
   .contact_content {
     align-items: flex-start;
   }
   .contact_content .contact_form form{
-    position: absolute;
     width: 30%;
     left: 0;
     margin-left: 20px;
