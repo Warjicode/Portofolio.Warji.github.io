@@ -117,6 +117,7 @@
    transform: scaleX(0.5) scaleY(0.5);
   }
   .contact{
+    background-color: green;
     height: 250px;
     box-sizing:border-box;
   }
