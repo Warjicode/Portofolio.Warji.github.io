@@ -1,8 +1,4 @@
 @media screen and (max-width:576px){
-  body {
-  max-width:576px;
-  background-color: blue;
-  }
   .container {
     box-sizing:border-box;
     background-color:red;
@@ -121,26 +117,27 @@
    transform: scaleX(0.5) scaleY(0.5);
   }
   .contact{
+    display:none;
     background-color: green;
     height: 250px;
     box-sizing:border-box;
   }
-  .contact_content {
+  .contact .contact_content {
     align-items: flex-start;
   }
-  .contact_content .contact_form form{
+  .contact .contact_content .contact_form form{
     width: 30%;
     left: 0;
     margin-left: 20px;
   }
-  .contact_form span h3{
+  .contact .contact_form span h3{
     margin-left: -80px;
     color: white;
   }
-  .contact_form form input{
+  .contact .contact_form form input{
     width: 100px;
   }
-  .contact_content .aset4 img{
+  .contact .contact_content .aset4 img{
     display: none;
   }
 }
