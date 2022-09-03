@@ -128,6 +128,10 @@
   .contact .contact_content .contact_form form{
     left: 0;
   }
+  .contact .contact_content .contact_form textarea{
+   width:100px;
+   heigth:100px;
+}
   .contact .contact_form span h3{
     margin-left: -80px;
     color: white;
