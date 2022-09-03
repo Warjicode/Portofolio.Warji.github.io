@@ -1,6 +1,7 @@
 @media (max-width:576px){
   .container {
     box-sizing:border-box;
+    overflow:hidden;
    }
   .navbar .li_item ul{
     transition: 0.2s;
