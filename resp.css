@@ -114,7 +114,7 @@
     order:1;
   }
   .skill_detail .aset3 img {
-   transform: scaleX(0.5) scaleY(0.5);
+   transform: scaleX(0.8) scaleY(0.8);
   }
   .contact{
     display:none;
@@ -134,10 +134,10 @@
     color: white;
   }
   .contact .contact_form form input{
-    width: 100px;
+    width: 300px;
   }
   .contact .contact_content .contact_form textarea{
-   width:100px;
+   width:300px;
    heigth:100px;
 }
   .contact .contact_content .aset4 img{
