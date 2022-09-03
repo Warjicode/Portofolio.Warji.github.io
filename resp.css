@@ -1,7 +1,6 @@
 @media screen and (max-width:576px){
   .container {
     box-sizing:border-box;
-    background-color:red;
    }
   .navbar .li_item ul{
     transition: 0.2s;
@@ -128,10 +127,7 @@
   .contact .contact_content .contact_form form{
     left: 0;
   }
-  .contact .contact_content .contact_form textarea{
-   width:100px;
-   heigth:100px;
-}
+
   .contact .contact_form span h3{
     margin-left: -80px;
     color: white;
@@ -139,6 +135,10 @@
   .contact .contact_form form input{
     width: 100px;
   }
+  .contact .contact_content .contact_form textarea{
+   width:100px;
+   heigth:100px;
+}
   .contact .contact_content .aset4 img{
     display: none;
   }
