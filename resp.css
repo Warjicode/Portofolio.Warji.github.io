@@ -126,6 +126,7 @@
   }
   .contact .contact_content .contact_form form{
     left: 0;
+    background-color: red;
   }
 
   .contact .contact_form span h3{
